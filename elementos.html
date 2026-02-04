@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elementos HTML</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav container">
+    <a href="index.html" class="logo">UPA</a>
+    <ul class="nav-menu active">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="elementos.html">Elementos</a></li>
+      <li><a href="tablas.html">Tablas</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="section container">
+  <h1>Elementos básicos de HTML</h1>
+
+  <h2>Encabezados</h2>
+  <h1>h1</h1>
+  <h2>h2</h2>
+  <h3>h3</h3>
+  <h4>h4</h4>
+  <h5>h5</h5>
+  <h6>h6</h6>
+
+  <h2>Texto</h2>
+  <p>
+    Este es un párrafo con texto en <strong>negrita</strong> y
+    <em>cursiva</em>.
+  </p>
+
+  <h2>Vínculos</h2>
+  <a href="https://www.w3schools.com" target="_blank">Ir a W3Schools</a>
+
+  <h2>Listas</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <ol>
+    <li>Estructura</li>
+    <li>Diseño</li>
+    <li>Interacción</li>
+  </ol>
+
+  <h2>Se muestran elementos basicos html</h2>
+  <img src="assets/images/elementos.jpg" alt="Se muestran lementos basicos html" width="300">
+
+  <h2>Objeto embebido</h2>
+  <iframe width="300" height="200"
+    src="https://www.youtube.com/embed/dD2EISBDjWM">
+  </iframe>
+
+  <h2>Formulario</h2>
+  <form class="form">
+    <label>Nombre</label>
+    <input type="text" required>
+
+    <label>Correo</label>
+    <input type="email" required>
+
+    <label>Mensaje</label>
+    <textarea rows="4"></textarea>
+
+    <button class="btn btn-primary">Enviar</button>
+  </form>
+</main>
+
+</body>
+</html>
