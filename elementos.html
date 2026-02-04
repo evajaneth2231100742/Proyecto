@@ -27,56 +27,110 @@
 <main class="section container">
   <h1>Elementos básicos de HTML</h1>
 
+  <br>
+
   <h2>Encabezados</h2>
-  <h1>h1</h1>
-  <h2>h2</h2>
-  <h3>h3</h3>
-  <h4>h4</h4>
-  <h5>h5</h5>
-  <h6>h6</h6>
+  <h1>Este es un encabezado h1</h1>
+  <h2>Este es un encabezado h2</h2>
+  <h3>Este es un encabezado h3</h3>
+  <h4>Este es un encabezado h4</h4>
+  <h5>Este es un encabezado h5</h5>
+  <h6>Este es un encabezado h6</h6>
+
+  <br>
 
   <h2>Texto</h2>
   <p>
+    En HTML se pueden aplicar estilos al texto como
+    <strong>negrita</strong> y <em>cursiva</em>.
+    <br><br>
     Este es un párrafo con texto en <strong>negrita</strong> y
     <em>cursiva</em>.
   </p>
 
+  <br>
+
   <h2>Vínculos</h2>
-  <a href="https://www.w3schools.com" target="_blank">Ir a W3Schools</a>
+  <a href="https://www.w3schools.com/html/" target="_blank">Tutorial HTML en W3Schools</a><br>
+  <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Documentación HTML en MDN</a><br>
+  <a href="https://htmlreference.io/" target="_blank">Referencia de etiquetas HTML</a>
+
+  <br><br>
 
   <h2>Listas</h2>
   <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
+    <li>PHP</li>
+    <li>Java</li>
   </ul>
 
   <ol>
-    <li>Estructura</li>
-    <li>Diseño</li>
-    <li>Interacción</li>
+    <li>Estructura del sitio</li>
+    <li>Diseño visual</li>
+    <li>Interacción con el usuario</li>
+    <li>Validación de formularios</li>
   </ol>
 
-  <h2>Se muestran elementos basicos html</h2>
-  <img src="assets/images/elementos.jpg" alt="Se muestran lementos basicos html" width="300">
+  <br>
+
+  <h2>Se muestran elementos básicos HTML</h2>
+  <img src="assets/images/elementos.jpg" alt="Se muestran elementos básicos HTML" width="300">
+
+  <br><br>
 
   <h2>Objeto embebido</h2>
   <iframe width="300" height="200"
     src="https://www.youtube.com/embed/dD2EISBDjWM">
   </iframe>
 
+  <br><br>
+
   <h2>Formulario</h2>
   <form class="form">
+
     <label>Nombre</label>
-    <input type="text" required>
+    <input type="text" placeholder="Escribe tu nombre" required>
 
     <label>Correo</label>
-    <input type="email" required>
+    <input type="email" placeholder="correo@ejemplo.com" required>
+
+    <label>Contraseña</label>
+    <input type="password" placeholder="Ingresa tu contraseña">
+
+    <label>Edad</label>
+    <input type="number" min="1" max="100">
+
+    <label>Fecha de nacimiento</label>
+    <input type="date">
+
+    <label>Género</label>
+    <div>
+      <input type="radio" name="genero" id="masculino">
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" name="genero" id="femenino">
+      <label for="femenino">Femenino</label>
+    </div>
+
+    <label>Lenguajes que conoces</label>
+    <div>
+      <input type="checkbox" id="html">
+      <label for="html">HTML</label>
+
+      <input type="checkbox" id="css">
+      <label for="css">CSS</label>
+
+      <input type="checkbox" id="js">
+      <label for="js">JavaScript</label>
+    </div>
 
     <label>Mensaje</label>
-    <textarea rows="4"></textarea>
+    <textarea rows="4" placeholder="Escribe tu mensaje"></textarea>
 
-    <button class="btn btn-primary">Enviar</button>
+    <button class="btn btn-primary" type="submit">Enviar</button>
+
   </form>
 </main>
 
