@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Desarrollo Web - UPA ISC & ITI</title>
+        <meta name="description" content="Programaci&oacute;n Web - UPA I. S. C. | I. T. I." />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/main.css" />
+
+        <script src="js/main.js"></script>
+
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav container">
+                <a href="#" class="logo">UPA</a>
+                <button class="nav-toggle" aria-label="Abrir men&uacute;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="portfolio.html">Portafolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li>
+                        <a href="#contacto" class="btn btn-contact">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio" class="hero">
+                <div class="container hero-content">
+                    <h1>Formularios en HTML</h1>
+                    <p>Integraci&oacute;n de HTML, CSS y JS.</p>
+                    <a href="#servicios" class="btn btn-primary">Ver informaci&oacute;n</a>
+                </div>
+            </section>
+            <section id="contacto" class="section">
+                <div class="container">
+                    <header class="section-header">
+                        <h2>Datos de Registro</h2>
+                        <p>Ingrese los datos solicitados</p>
+                    </header>
+
+                    <form class="forms form">
+                        <input type="text" id="" name="" placeholder="Nombre" required/>
+                        <input type="text" id="" name="" placeholder="A. Paterno" required/>
+                        <input type="text" id="" name="" placeholder="A. Materno" required/>
+                        <input type="date" name="" id="" required>
+                        <input type="file" name="" id="" required>
+                        <select name="" id="">
+                            <option value="0">Selecione una opci&oacute;n</option>
+                            <option value="1">Atlacomulco</option>
+                            <option value="2">Acambay</option>
+                            <option value="3">San Felipe del Progreso</option>
+                        </select>
+                        <textarea name="" id="" rows="5"></textarea>
+                        <label for="">Indique su Genero</label>
+                        Mujer <input type="radio" name="" id="">
+                        Hombre <input type="radio" name="" id="">
+                        <button type="submit" class="btn btn-primary">Registrar</button>
+                    </form>
+                </div>
+            </section>
+            
+            
+        </main>
+        <footer class="footer">
+            <div class="container footer-content">
+                <p>
+                    &copy; 2026 Universidad Polit&eacute;cnica de Atlacom&uacute;lco | Nombre Completo. 
+                    Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+        <button class="scroll-top" aria-label="Volver arriba">
+            &uarr;
+        </button>
+        <script src="js/menu.js"></script>
+    </body>
+</html>
