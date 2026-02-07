@@ -7,7 +7,6 @@
     --max-width: 1200px;
     --radius: 0.75rem;
 }
-
 *,
 *::before,
 *::after {
@@ -214,7 +213,6 @@ img {
     .nav-toggle {
         display: flex;
     }
-
     .nav-menu {
         position: absolute;
         top: 4rem;
@@ -230,21 +228,17 @@ img {
         transition: transform 0.3s ease-in-out;
         box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     }
-
     .nav-menu.active {
         transform: translateY(0);
     }
-
     .nav-menu {
         background: rgba(255, 255, 255, 0.95);
         backdrop-filter: blur(12px);
         border-radius: 0 0 1rem 1rem;
     }
-
     .nav-menu a {
         font-size: 1.1rem;
     }
-
     .btn-contact {
         width: 80%;
         text-align: center;
@@ -299,34 +293,13 @@ img {
     pointer-events: auto;
 }
 
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 2rem;
-    background-color: #fff;
-    border-radius: var(--radius);
-    overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+.input-error{
+    border: 1px solid #af1e5d !important;
 }
 
-thead {
-    background-color: var(--color-primary);
-    color: #fff;
-}
-
-th,
-td {
-    padding: 0.75rem;
-    text-align: center;
-    border: 1px solid #e5e7eb;
-}
-
-tbody tr:nth-child(even) {
-    background-color: var(--color-light);
-}
-
-tbody tr:hover {
-    background-color: #e0e7ff;
-    transition: background 0.2s ease;
+.forms{
+    border: 1px solid #3d3e41;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #b50259;
 }
